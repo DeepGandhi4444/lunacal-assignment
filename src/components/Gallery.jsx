@@ -102,6 +102,8 @@ const Gallery = () => {
             <img key={index} src={src} alt={`img ${index + 1}`} />
           ))}
         </div>
+        <div className="absolute w-[8px] h-[64px] bg-gradient-to-b from-[#888989] to-[#4a4e54] right-3 top-[150px] rounded-full"></div>
+
       </div>
     </div>
   );
