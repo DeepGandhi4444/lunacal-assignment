@@ -17,6 +17,10 @@ const About = () => {
 
   return (
     <div className="card about bg-[#363C43] w-[720px] h-[316px] font-['Plus_Jakarta_Sans'] text-[1rem] leading-[26px] text-left p-4 text-[#969696] cursor-pointer rounded-[20px] shadow-[11px_13px_5px_-3px_rgba(0,0,0,0.2)] mx-auto " >
+       <div className='absolute'>
+        <img src="/QuestionMark.png" className='mb-[100px]' alt="" />
+        <img src="/FramesCubes.png" alt="" />
+      </div>
       <div className="aboutNav bg-[#171717] rounded-[23px] w-[614px] h-[62px] flex list-none mx-auto">
         <li className={activeTab === 'about' ? "text-[#fff] text-center m-auto h-[49px] w-[192px] rounded-[15px] grid place-content-center bg-[#28292F] shadow-[0_20px_100px_30px_#171717]":"text-[#a3adb2] text-center m-auto h-[49px] w-[192px] rounded-[15px] grid place-content-center hover:bg-gradient-to-r from-[#191919] to-[#1E2022] transition-all ease-out duration-300"}  onClick={() => activeTabfunc('about')}>About Me </li>
         <li className={activeTab === 'experience' ?"text-[#fff] text-center m-auto h-[49px] w-[192px] rounded-[15px] grid place-content-center bg-[#28292F] shadow-[0_20px_100px_30px_#171717]":"text-[#a3adb2] text-center m-auto h-[49px] w-[192px] rounded-[15px] grid place-content-center hover:bg-gradient-to-r from-[#191919] to-[#1E2022] transition-all ease-out duration-300"} onClick={() => activeTabfunc('experience')}>Expreriences </li>

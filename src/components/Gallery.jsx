@@ -64,7 +64,11 @@ const Gallery = () => {
   };
 
   return (
-    <div className='card gallery'>
+    <div className='card gallery '>
+      <div className='absolute'>
+        <img src="/QuestionMark.png" className='mb-[100px]' alt="" />
+        <img src="/FramesCubes.png" alt="" />
+      </div>
       <div className="galleryNav">
         <div className='galleryLogo'>Gallery</div>
         <div className="galleryUtils">
